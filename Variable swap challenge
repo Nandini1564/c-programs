@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, temp;
+    
+    // Swapping values
+    temp = a;
+    a = b;
+    b = temp;
+    
+    // Printing swapped values in a single printf
+    printf("%d %d", a, b);
+    
+    return 0;
+
+}
